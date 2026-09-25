@@ -1,0 +1,19 @@
+{
+  "task": "sentiment-analysis",
+  "single_result": [
+    {
+      "label": "POSITIVE",
+      "score": 0.9598048329353333
+    }
+  ],
+  "batch_result": [
+    {
+      "label": "POSITIVE",
+      "score": 0.9598048329353333
+    },
+    {
+      "label": "NEGATIVE",
+      "score": 0.9994558691978455
+    }
+  ]
+}

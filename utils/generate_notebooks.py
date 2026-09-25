@@ -30,7 +30,7 @@ def read_and_split_frameworks(fname):
     """
     Read the MDX in fname and creates two versions (if necessary) for each framework.
     """
-    with open(fname, "r") as f:
+    with open(fname, "r", encoding="utf-8") as f:
         content = f.readlines()
 
     contents = {"pt": [], "tf": []}
@@ -267,7 +267,7 @@ def get_titles(language):
     Parse the _toctree.yml file to get the correspondence filename to title
     """
     table = yaml.safe_load(
-        open(os.path.join(f"chapters/{language}", "_toctree.yml"), "r")
+        open(os.path.join(f"chapters/{language}", "_toctree.yml"), "r", encoding="utf-8")
     )
     result = {}
     for entry in table:

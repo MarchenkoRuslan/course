@@ -1,0 +1,17 @@
+{
+  "task": "zero-shot-classification",
+  "model": "typeform/distilbert-base-uncased-mnli",
+  "result": {
+    "sequence": "This is a course about the Transformers library",
+    "labels": [
+      "education",
+      "politics",
+      "business"
+    ],
+    "scores": [
+      0.4329459071159363,
+      0.351444810628891,
+      0.21560922265052795
+    ]
+  }
+}
